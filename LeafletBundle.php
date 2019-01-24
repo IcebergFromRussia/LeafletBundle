@@ -6,7 +6,7 @@
  * Time: 7:42
  */
 
-namespace LeafletBundle;
+namespace RussianIceberg\LeafletBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
