@@ -1,0 +1,10 @@
+{% block scripts %}
+    <script type="text/javascript">
+        var map = L.map('map').setView([55.734359553054034,  52.42727279663087], 11);
+        L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+            maxZoom: 18,
+            id: 'mapbox.streets',
+            accessToken: 'pk.eyJ1IjoiaWNlYmVyZ2Zyb21ydXNzaWEiLCJhIjoiY2pyOXFkdHVrMGR1ODQ0cWt6cnF6ZWhlbiJ9.BWTFqFeddAj6Cm5BP4WIvQ'
+        }).addTo(map);
+    </script>
+{% endblock %}
