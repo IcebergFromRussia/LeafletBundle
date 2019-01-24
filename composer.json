@@ -9,12 +9,7 @@
     },
     "autoload": {
         "psr-4": {
-            "RussianIceberg\\LeafletBundle\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "RussianIceberg\\LeafletBundle\\\\Tests\\": "tests/"
+            "RussianIceberg\\LeafletBundle\\": ""
         }
     }
 }
