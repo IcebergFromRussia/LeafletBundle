@@ -16,6 +16,5 @@
         "psr-4": {
             "RussianIceberg\\LeafletBundle\\\\Tests\\": "tests/"
         }
-    },
-    "target-dir":  "RussianIceberg/LeafletBundle"
+    }
 }
